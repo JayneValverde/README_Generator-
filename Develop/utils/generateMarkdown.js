@@ -1,16 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  // console.log('this is bad');
+  console.log(license);
+
   let badge = '';
-    if(license === 'Apache') {
+    if(license === 'Apache 2.0') {
         badge = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
-    } else if (license === 'BootSoftWare') {
+    } else if (license === 'Boost Software License 1.0') {
         badge = `![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`
-    } else if (license ==='Eclipse') {
+    } else if (license ==='Eclipse Publice License 1.0') {
         badge = `![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)`
-    } else if (license === 'GNUGPLv3') {
+    } else if (license === 'GNU GPLv3') {
         badge = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
-    } else if (license === 'GNUAGPLv3') {
+    } else if (license === 'GNU AGPLv3') {
         badge = `![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)`
     } else if (license === 'MIT') {
         badge = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
@@ -18,7 +21,8 @@ function renderLicenseBadge(license) {
         badge = `![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)`
     } else {
       badge = ''
-    }
+    } 
+    console.log(badge);
     return badge;
   }
 
@@ -91,7 +95,7 @@ function generateMarkdown(data) {
   The Following is needed to run tests on application: ${data.Tests}
 
   # License
-  This project is license under ${data.License}
+  This project is license under ${data.license}
   `
 }
 
