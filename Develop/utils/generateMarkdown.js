@@ -84,12 +84,13 @@ function generateMarkdown(data) {
   * [License](#license)
   
   # Installation
-  The following dependencies ust be installed to run the application
+  The following dependencies must be installed to run the application
 
   # Usage
   In order to use this App, ${data.Usage}
 
-  # Contributors: ${data.Contributing}
+  # Contributors: 
+  ${data.Contributing}
 
   # Tests
   The Following is needed to run tests on application: ${data.Tests}

@@ -1,12 +1,12 @@
 
   
-  # asd
+  # README-Generator 
 
-  ## License: Apache 2.0 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  ## License: Eclipse Publice License 1.0 ![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)
   ### 
 
   # Description
-  asd
+  This app allows developers to create a professional README.md file in a way that is easy to use.
 
   # Table of Contents
   * [Installations](#installation)
@@ -16,16 +16,17 @@
   * [License](#license)
   
   # Installation
-  The following dependencies ust be installed to run the application
+  The following dependencies must be installed to run the application
 
   # Usage
-  In order to use this App, asd
+  In order to use this App, Run in the terminal.
 
-  # Contributors: asd
+  # Contributors: 
+  Previous bootcamp assignments, UTSA tutor (Juan Delgado), Youtube & google searches.
 
   # Tests
-  The Following is needed to run tests on application: asd
+  The Following is needed to run tests on application: Node, Index.js
 
   # License
-  This project is license under undefined
+  This project is license under Eclipse Publice License 1.0
   
