@@ -10,7 +10,7 @@
 
 
 ## User Story : 
-As a developer, I want to generate a high-quality '**README.md**' file using a Node.js-based tool. This tool should simplify the process, saving me time and effort. 
+As a developer, I want to generate a high-quality '**README.md**' file using a Node.js-based tool. This tool should simplify the process of creating a well-structured and informative '**README.md**' file. Here is a *User Story* describing the functionality of my application:
 
 * As a user I want to run the '**README.md**' generater using *Node.js* on my terminal, within my local machine.  
 
